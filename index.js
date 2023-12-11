@@ -16,3 +16,13 @@ console.log("--------------------------");
 console.log(parseInt(numero));
 console.log(numero.toFixed(2));
 console.log(parseFloat(numero));
+
+console.log("---------------");
+
+function sumar(numeroUno, numeroDos) {
+  return numeroUno + numeroDos;
+}
+
+const sumar = (numeroUno, numeroDos) => {
+  return numeroUno + numeroDos;
+};
