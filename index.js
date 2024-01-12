@@ -26,12 +26,3 @@ function sumar(numeroUno, numeroDos) {
 const sumar = (numeroUno, numeroDos) => {
   return numeroUno + numeroDos;
 };
-
-const Animal = function (nombre, genero) {
-  this.nombre = nombre;
-  this.genero = genero;
-};
-
-Animal.prototype.saludar = () => {
-  console.log(`Hola mi nombre es ${this.nombre}`);
-};
